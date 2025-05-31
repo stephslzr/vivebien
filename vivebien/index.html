@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vive Bien - Bienestar y Salud Integral</title>
+  <meta name="description" content="Descubre consejos, rutinas y recursos para mejorar tu salud física, mental y emocional. Vive Bien te acompaña en tu camino hacia una vida plena y saludable." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header id="site-header">
+    <h1 class="logo">
+      <img src="logo/1.png" alt="Logo Vive Bien" class="logo-img">
+    </h1>    
+    <nav aria-label="Menú principal">
+      <a href="index.html" class="active" aria-current="page">Inicio</a>
+      <a href="ejercicio.html">Ejercicio</a>
+      <a href="nutricion.html">Nutrición</a>
+      <a href="saludmental.html">Salud Mental</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" aria-label="Sección principal de bienvenida">
+    <h2>Tu salud, tu bienestar, tu vida</h2>
+    <p>Inicia hoy mismo el camino hacia una vida más saludable, feliz y llena de energía con nuestros consejos, rutinas y recursos pensados para ti.</p>
+    <a href="ejercicio.html" class="btn-main" role="button">Empieza Hoy</a>
+  </section>
+
+  <main>
+    <section class="text-section" aria-labelledby="porque-cuidar-salud">
+      <h2 id="porque-cuidar-salud">¿Por qué cuidar tu salud?</h2>
+      <p>Una vida saludable mejora tu energía, fortalece tu sistema inmunológico y eleva tu bienestar emocional y mental. En <strong>Vive Bien</strong> sabemos que pequeños hábitos pueden transformar tu día a día.</p>
+      <p>Desde ejercicios accesibles hasta una nutrición balanceada y técnicas para reducir el estrés, aquí te ofrecemos las herramientas para que vivas mejor y disfrutes más cada momento.</p>
+    </section>
+
+    <section aria-label="Áreas de bienestar">
+      <div class="text-section">
+        <h2>Áreas de bienestar</h2>
+      </div>
+
+      <div class="carousel-container">
+        <div class="carousel-track">
+          <article class="card" tabindex="0" aria-labelledby="card-ejercicio">
+            <img src="https://cdn-icons-png.flaticon.com/512/3063/3063461.png" alt="Icono representando ejercicio físico" />
+            <h3 id="card-ejercicio">Ejercicio</h3>
+            <p>Descubre rutinas sencillas y efectivas para mantener tu cuerpo activo, mejorar tu fuerza y aumentar tu vitalidad.</p>
+            <a href="ejercicio.html" class="btn-secondary" role="button">Ver Rutinas</a>
+          </article>
+
+          <article class="card" tabindex="0" aria-labelledby="card-nutricion">
+            <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Icono de nutrición saludable" />
+            <h3 id="card-nutricion">Nutrición</h3>
+            <p>Aprende a preparar comidas deliciosas y nutritivas que te ayudarán a mantener un peso saludable y sentirte mejor cada día.</p>
+            <a href="nutricion.html" class="btn-secondary" role="button">Ver Recetas</a>
+          </article>
+
+          <article class="card" tabindex="0" aria-labelledby="card-salud-mental">
+            <img src="https://cdn-icons-png.flaticon.com/512/3797/3797553.png" alt="Icono de salud mental y bienestar emocional" />
+            <h3 id="card-salud-mental">Salud Mental</h3>
+            <p>Explora técnicas y recursos para cuidar tu mente, manejar el estrés y fomentar una actitud positiva ante la vida.</p>
+            <a href="saludmental.html" class="btn-secondary" role="button">Explorar Técnicas</a>
+          </article>
+        </div>
+
+        <div class="carousel-indicators" role="tablist" aria-label="Indicadores del carrusel">
+          <button class="indicator active" role="tab" aria-selected="true" aria-controls="slide1" id="indicator1"></button>
+          <button class="indicator" role="tab" aria-selected="false" aria-controls="slide2" id="indicator2"></button>
+          <button class="indicator" role="tab" aria-selected="false" aria-controls="slide3" id="indicator3"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-section" aria-labelledby="comunidad-vive-bien">
+      <h2 id="comunidad-vive-bien">Únete a nuestra comunidad</h2>
+      <p>Forma parte de un espacio donde podrás compartir experiencias, recibir apoyo y mantenerte motivado en tu viaje hacia el bienestar integral.</p>
+      <a href="contacto.html" class="btn-main" role="button">Contáctanos</a>
+    </section>
+  </main>
+
+  <footer id="site-footer">
+    <p>© 2025 Vive Bien | <a href="mailto:contacto@vivebien.com">contacto@vivebien.com</a></p>
+  </footer>
+
+</body>
+</html>
